@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile Server",
+      "type": "shell",
+      "command": "javac Server.java",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Compile Client",
+      "type": "shell",
+      "command": "javac Client.java",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Server",
+      "type": "shell",
+      "command": "java Server",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Client",
+      "type": "shell",
+      "command": "java Client",
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}
